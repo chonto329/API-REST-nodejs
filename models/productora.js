@@ -20,7 +20,7 @@ const ProductoraSchema = Schema({
         type: Date,
         default: new Date()
     },
-    Slogan: {
+    slogan: {
         type: String,
         minlength: 1
     },
